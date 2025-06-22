@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat With AI</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+  <div class="app-wrapper">
+    
+    <div class="chat-container">
+      <div id="messages" class="messages"></div>
+      
+      <div class="input-container">
+        <input type="text" id="input_prompt" placeholder="Type your message here..." autofocus>
+        
+        <label for="pdf_upload" id="x" class="upload-label">Upload PDF</label>
+        <input type="file" id="pdf_upload" accept="application/pdf">
+        
+        <button id="submit_button" title="Send Prompt">Send</button>
+      </div>
+    </div>
+  </div>
+  
+  
+  <script>
+    const chat_id = "{{ chatID }}"   
+  </script>
+  <script src="/static/script.js"></script>
+    
+    
+</body>
+</html>

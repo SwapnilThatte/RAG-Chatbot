@@ -1,0 +1,11 @@
+langchain
+langchain-chroma
+langchain-community
+langchain-core
+langchain-huggingface
+transformers
+langchain-text-splitters
+chromadb
+torch
+fastapi
+uvicorn[standard]
